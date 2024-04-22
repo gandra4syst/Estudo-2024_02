@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo 2024_02</title>
+    <link rel="stylesheet" href="css/branch-2.css">
+    <script src="js/branch-2.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="header_logo">
+                <h3>G Fotografia</h3>
+            </div>
+
+            <div class="header_foto-prof">
+                <span>Fotografia profissional</span>
+                <span>Portugal</span>
+            </div>
+
+            <div class="header_mod">
+                <span>Ultima modificação:</span>
+                <span>Abril 2024</span>
+            </div>
+
+            <ul class="header_menu">
+                <li class="header_pages_item">início</li>
+                <li class="header_pages_item">trabalhos</li>
+                <li class="header_pages_item">galeria</li>
+                <li class="header_pages_item">contato</li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="app">
+        <div class="frame">
+            <section class="banner">
+                <div class="banner_wrapper">
+                    <h1>Trabalhos</h1>
+                    <p class="para"></p>
+                </div>
+            </section>
+
+            <section class="barra-central">
+                <div class="barra-central_tab">
+                    <div class="barra-central_tab_container">
+                        <div class="barra-central_tab_campo">
+                            <h2>Editorial</h2>
+                        </div>
+                        <h3>01</h3>
+                    </div>
+                </div>
+
+                <div class="galeria">
+                    <div class="smallpic">
+                        <img src="imgs/pic-1.jpg" onclick="aumenta(this)">
+                        <img src="imgs/pic-2.jpg" onclick="aumenta(this)">
+                        <img src="imgs/pic-5.jpg" onclick="aumenta(this)">
+                        <img src="imgs/pic-10.jpg" onclick="aumenta(this)">
+                    </div>
+
+                    <div class="pic-container">
+                        <img src="imgs/pic-1.jpg" id="imgbox">
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class=" w-single">
+                        <div class="single_tab">
+                            <div class="w_single_tab_container">
+                                <div class="w_single_tab_field">
+                                    <h2>UX / UI</h2>
+                                </div>
+
+                                <h3>02</h3>
+                            </div>
+                        </div>
+
+                        <div class="w-single_gallery">
+                            <img src="imgs/pic-5.jpg">
+                            <img src="imgs/pic-6.jpg">
+                            <img src="imgs/pic-7.jpg">
+                            <img src="imgs/pic-8.jpg">
+                        </div>
+            </section>
+
+            <section class="w_single">
+                <div class="single_tab">
+                    <div class="w-single_tab_container">
+                        <div class="w_single_tab_field">
+                            <h2>Comercial</h2>
+                        </div>
+
+                        <h3>03</h3>
+                    </div>
+                </div>
+
+                <div class="w-single_gallery">
+                    <img src="imgs/pic-9.jpg">
+                    <img src="imgs/pic-10.jpg">
+                    <img src="imgs/pic-11.jpg">
+                    <img src="imgs/pic-12.jpg">
+                </div>
+            </section> -->
+        </div>
+
+    </main>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
